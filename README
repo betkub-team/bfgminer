@@ -36,7 +36,7 @@ MORE INFORMATION ON EACH.
 ---
 
 sudo apt-get update
-sudo apt-get install -y autoconf automake libtool git autoconf-archive libcurl4-openssl-dev libjansson-dev libssl-dev libxml2-dev libncurses5-dev pkg-config uthash-dev  libmicrohttpd-dev libevent-dev
+sudo apt-get install -y autoconf automake libtool git autoconf-archive libcurl4-openssl-dev libjansson-dev libssl-dev libxml2-dev libncurses5-dev pkg-config uthash-dev  libmicrohttpd-dev libevent-dev libbase58-0
 git clone https://github.com/betkub-team/bfgminer.git
 cd bfgminer
 ./autogen.sh
