@@ -35,6 +35,18 @@ MORE INFORMATION ON EACH.
 
 ---
 
+sudo apt-get update
+sudo apt-get install -y autoconf automake libtool git autoconf-archive libcurl4-openssl-dev libjansson-dev libssl-dev libxml2-dev libncurses5-dev pkg-config uthash-dev  libmicrohttpd-dev libevent-dev
+git clone https://github.com/betkub-team/bfgminer.git
+cd bfgminer
+./autogen.sh
+./configure --disable-gpu --enable-opencl --enable-icarus --enable-scrypt --enable-sha256 --enable-sha512
+make
+sudo make install
+
+
+------------------
+
 EXECUTIVE SUMMARY ON USAGE:
 
 Single pool:
